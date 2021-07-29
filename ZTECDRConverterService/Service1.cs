@@ -36,34 +36,7 @@ namespace ZTECDRConverterService
                 timer.Interval = 50000; //number in miliseconds 5000 = approx 1 min, 120000 = 2mins  //3600000 = 1hr, 1800000= 30mins
                 //ReadTxtFile();
                 timer.Enabled = true;
-                //method to read .txt file to db
-                //ReadTxtFile();
-                // Create the thread object that will do the service's work.
-               // _thread = new System.Threading.Thread(ReadTxtFile);
-
-                // Start the thread.
-               // _thread.Start();
-
-                
-                
-                //using (StreamReader sr = new StreamReader(File.Open("C:\\Tr500.txt", FileMode.Open)))
-                //    {
-                //        using (SqlConnection txtbaglan = new SqlConnection(_dbCon))
-                //        {
-                //            txtbaglan.Open();
-                //            string line = "";
-                //            while ((line = sr.ReadLine()) != "")
-                //            {
-                //                string[] parts = line.Split(new string[] { "," }, StringSplitOptions.None);
-                //                string cmdTxt = String.Format("INSERT INTO pdks(kod,il) VALUES ('{0}','{1}')", parts[0], parts[1]);//", parts[0], parts[1]);
-                //                using (SqlCommand cmddd = new SqlCommand(cmdTxt, txtbaglan))
-                //                {
-                //                    cmddd.ExecuteNonQuery();
-                //                }
-                //            }
-                //        }
-                //    }
-                // }
+               
             }
             catch (Exception ex)
             {
@@ -116,7 +89,9 @@ namespace ZTECDRConverterService
                     // string Destination = "C:\\ZTECDRConverter\\Dumb";
                     string filename = string.Empty;
                     if (!(Directory.Exists(source)))
-                        return;
+                    {
+                        Directory.CreateDirectory(source);
+                    }
                     string[] Templateexcelfile = Directory.GetFiles(source);
                     foreach (string file in Templateexcelfile)
                     {
@@ -141,7 +116,7 @@ namespace ZTECDRConverterService
                                     string line = "";
                                     while ((line = sr.ReadLine()) != null)
                                     {
-                                        string[] parts = line.Split(new string[] { " " }, StringSplitOptions.None);
+                                        string[] parts = line.Split(new string[] { " " }, StringSplitOptions.None); //line.Split(new string[] { "," }, StringSplitOptions.None); for comma separated values
                                         string cmdTxt = string.Format("INSERT INTO tblTestService(id,col1,col2,col3) VALUES ('{0}','{1}','{2}','{3}')", parts[0], parts[1], parts[2], parts[3]);//", parts[0], parts[1]);
 
                                         using (SqlCommand cmddd = new SqlCommand(cmdTxt, _con))
