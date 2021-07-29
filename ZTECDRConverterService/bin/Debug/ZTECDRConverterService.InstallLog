@@ -1,0 +1,13 @@
+﻿Installing assembly 'C:\Users\MUHDAMEAN\Documents\Visual Studio 2015\Projects\ZTECDRConverterService\ZTECDRConverterService\bin\Debug\ZTECDRConverterService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\MUHDAMEAN\Documents\Visual Studio 2015\Projects\ZTECDRConverterService\ZTECDRConverterService\bin\Debug\ZTECDRConverterService.exe
+   logfile = C:\Users\MUHDAMEAN\Documents\Visual Studio 2015\Projects\ZTECDRConverterService\ZTECDRConverterService\bin\Debug\ZTECDRConverterService.InstallLog
+Installing service ZTECDRConverterService...
+Service ZTECDRConverterService has been successfully installed.
+Creating EventLog source ZTECDRConverterService in log Application...
+Committing assembly 'C:\Users\MUHDAMEAN\Documents\Visual Studio 2015\Projects\ZTECDRConverterService\ZTECDRConverterService\bin\Debug\ZTECDRConverterService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\MUHDAMEAN\Documents\Visual Studio 2015\Projects\ZTECDRConverterService\ZTECDRConverterService\bin\Debug\ZTECDRConverterService.exe
+   logfile = C:\Users\MUHDAMEAN\Documents\Visual Studio 2015\Projects\ZTECDRConverterService\ZTECDRConverterService\bin\Debug\ZTECDRConverterService.InstallLog

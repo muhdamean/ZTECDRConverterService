@@ -1,0 +1,8 @@
+c:\users\muhdamean\documents\visual studio 2015\Projects\ZTECDRConverterService\ZTECDRConverterService\bin\Debug\ZTECDRConverterService.exe.config
+C:\Users\MUHDAMEAN\Documents\Visual Studio 2015\Projects\ZTECDRConverterService\ZTECDRConverterService\obj\Debug\ZTECDRConverterService.csprojResolveAssemblyReference.cache
+C:\Users\MUHDAMEAN\Documents\Visual Studio 2015\Projects\ZTECDRConverterService\ZTECDRConverterService\bin\Debug\ZTECDRConverterService.exe
+C:\Users\MUHDAMEAN\Documents\Visual Studio 2015\Projects\ZTECDRConverterService\ZTECDRConverterService\bin\Debug\ZTECDRConverterService.pdb
+C:\Users\MUHDAMEAN\Documents\Visual Studio 2015\Projects\ZTECDRConverterService\ZTECDRConverterService\obj\Debug\ZTECDRConverterService.ProjectInstaller.resources
+C:\Users\MUHDAMEAN\Documents\Visual Studio 2015\Projects\ZTECDRConverterService\ZTECDRConverterService\obj\Debug\ZTECDRConverterService.csproj.GenerateResource.Cache
+C:\Users\MUHDAMEAN\Documents\Visual Studio 2015\Projects\ZTECDRConverterService\ZTECDRConverterService\obj\Debug\ZTECDRConverterService.exe
+C:\Users\MUHDAMEAN\Documents\Visual Studio 2015\Projects\ZTECDRConverterService\ZTECDRConverterService\obj\Debug\ZTECDRConverterService.pdb
